@@ -1,1 +1,69 @@
 /* give your assignment a fun background color */
+* {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;   
+}
+
+body {
+    display: flex;
+    height: 100%;
+    background-color: #f1c40f;
+    color: #f1c40f;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 0;
+}
+
+h1 {
+    font-size: 9vw;
+}
+
+h2 {
+    font-size: 4vw;
+}
+
+ol {
+    padding: 10px;
+    list-style-position: inside;
+    font-size: 2vw;
+}
+
+footer {
+    position: absolute;
+    right: 0;
+    width: auto;
+    bottom: 0px;
+    height: fit-content;
+    padding: 5px;
+}
+
+.main {
+    position: relative;
+    width: 80%;
+    height: 120%;
+    background-color: #d90368;
+    background: radial-gradient(circle, #00cc66, #f75c03, #d90368);
+    padding: 25px 5px 25px;
+    outline-color: #00cc66;
+    outline-width: 10%;
+    outline-style: solid;
+}
+
+.list {
+    margin-bottom: 100%;
+}
+
+body:hover {
+    background-color: #2274a5;
+}
+
+.main:hover {
+    background: none;
+    background-color: #00cc66;
+    color: #d90368;
+    outline-style: solid;
+    outline-width: 10%;
+    outline-color: #F75C03;
+}

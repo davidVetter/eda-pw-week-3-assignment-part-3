@@ -28,6 +28,7 @@ ol {
     padding: 10px;
     list-style-position: inside;
     font-size: 2vw;
+    margin-bottom: 100%;
 }
 
 footer {
@@ -37,6 +38,7 @@ footer {
     bottom: 0px;
     height: fit-content;
     padding: 5px;
+    font-size: 1vw;
 }
 
 .main {
@@ -49,10 +51,6 @@ footer {
     outline-color: #00cc66;
     outline-width: 10%;
     outline-style: solid;
-}
-
-.list {
-    margin-bottom: 100%;
 }
 
 body:hover {

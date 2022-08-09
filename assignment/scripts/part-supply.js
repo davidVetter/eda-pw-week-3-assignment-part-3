@@ -32,7 +32,7 @@ supplyChanges.push(25);
 //    - if the value is 0, log 'No Change.'
 //    - if the value is negative, format the log as 'Removed x parts.' 
 console.log('6. Showing supplyChanges...');
-for (i=0; i < supplyChanges.length; i++){
+for (let i=0; i < supplyChanges.length; i++){
     if (supplyChanges[i] > 0) {
         console.log(`Added ${supplyChanges[i]} parts.`);
     } else if (supplyChanges[i] === 0) {
@@ -60,7 +60,7 @@ for (change of supplyChanges) {
 //    adding up all the numbers in the 'supplyChanges' array.
 console.log('8. Total supplies available is:');
 let totalParts = 0;
-for (i=0; i < supplyChanges.length; i++) {
+for (let i=0; i < supplyChanges.length; i++) {
     totalParts += supplyChanges[i];
 }
 console.log(totalParts);
